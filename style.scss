@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+$Very-dark-blue-main-background: hsl(233, 47%, 7%);
+$Dark-desaturated-blue-card-background: hsl(244, 38%, 16%);
+$Soft-violet-accent: hsl(277, 64%, 61%);
+$White-main-heading-stats: hsl(0, 0%, 100%);
+$Slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+$Slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+
+body{
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: $Very-dark-blue-main-background;
+
+        .card{
+            display: flex;
+            flex-direction: row-reverse;
+            width: 900px;
+            height: 400px;
+            background-color: $Dark-desaturated-blue-card-background;
+
+            .image-header-desktop{
+                height: 100%;
+            }
+
+            .card-text{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 30px;
+
+                .heading-stats{
+                    color: $White-main-heading-stats;
+                    font-family: 'Lexend Deca';
+                    font-weight: 400;
+                }
+
+                .paragraph{
+                    color: $Slightly-transparent-white-main-paragraph;
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+
+                .stadistics{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
+
+            
+        }
+    }
+
+    
+}
+

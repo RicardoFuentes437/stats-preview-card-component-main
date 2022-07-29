@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(233deg, 47%, 7%);
+}
+body main .card {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 900px;
+  height: 400px;
+  background-color: hsl(244deg, 38%, 16%);
+}
+body main .card .image-header-desktop {
+  height: 100%;
+}
+body main .card .card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+}
+body main .card .card-text .heading-stats {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+body main .card .card-text .paragraph {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+}
+body main .card .card-text .stadistics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
